@@ -23,6 +23,13 @@ header {
     height: 100vh;
 }
 
+.video {
+    height: 525px;
+    width: 939px;
+    margin: 24px 24px 24px 55px;
+    background-color: green;
+}
+
 .side-menu {
     background-color: gray;
     width: 33%;
