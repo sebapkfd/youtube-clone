@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     height: 8.5vh;
     display: flex;
     flex-direction: row;
@@ -44,7 +44,13 @@ header {
     background-color: green;
 }
 
-img {
+.preview-img {
     height: 100%;
     width: 100%;
+}
+
+button {
+    background-color: red;
+    border: none;
+    max-height: 36px;
 }
