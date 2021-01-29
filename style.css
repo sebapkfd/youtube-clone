@@ -4,11 +4,11 @@ body {
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: #303030;
     height: 8.5vh;
+    height: 62px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     justify-items: center;
     align-items: center;
 }
@@ -47,10 +47,50 @@ header {
 .preview-img {
     height: 100%;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 button {
-    background-color: red;
+    background-color: #303030;
     border: none;
-    max-height: 36px;
+    height: 24px;
+    width: 24px;
+    outline: none;
+    padding: 0;
+}
+
+.bar-icon {
+    height: 100%;
+}
+
+#youtube-logo {
+    margin-left: 29px;
+}
+
+#left-bar {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 27px;
+    width: 365px;
+    /* background-color: red; */
+}
+
+#input-bar {
+    width: 620px;
+    height: 32px;
+    padding: 0 0 0 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px rgb(63, 63, 63);
+    background-color: #121212;
+}
+
+input {
+    margin: 0;
+    width: 613px;
+    height: 26px;
+    border: none;
+    background-color: #121212;  
 }
