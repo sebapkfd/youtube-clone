@@ -92,5 +92,15 @@ input {
     width: 613px;
     height: 26px;
     border: none;
-    background-color: #121212;  
+    background-color: #121212;
+}
+
+#search-btn {
+    background-color: red;
+    width: 65px;
+    height: 32px;
+    border: solid 1px rgb(63, 63, 63);
+    padding: 1px 6px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255, 0.08);
 }
