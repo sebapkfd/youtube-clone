@@ -73,7 +73,6 @@ button {
     justify-content: flex-start;
     padding-left: 27px;
     width: 365px;
-    /* background-color: red; */
 }
 
 #input-bar {
@@ -103,4 +102,26 @@ input {
     padding: 1px 6px;
     border-radius: 3px;
     background-color: rgb(255, 255, 255, 0.08);
+}
+
+#mic-btn {
+    margin-left: 20px;
+}
+
+#right-bar {
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    width: 365px;
+}
+
+#profile-btn {
+    display: flex;
+    flex-direction: row;
+    color: #3ea6fc;
+    width: 106px;
+    height: 40px;
+    border: 2px solid #3ea6fc;
+    align-items: center;
+    justify-content: space-evenly;
 }
