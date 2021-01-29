@@ -151,3 +151,7 @@ input {
     margin-left: 29px;
     height: 24px;
 }
+
+a {
+    text-decoration: none;
+}
