@@ -77,9 +77,6 @@ button {
     height: 100%;
 }
 
-#youtube-logo {
-    margin-left: 29px;
-}
 
 #left-bar {
     display: flex;
@@ -140,4 +137,17 @@ input {
 
 .right-bar-btn {
     margin-left: 20px;
+}
+
+#youtube-btn {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+    font-size: 18px;
+}
+
+#youtube-logo {
+    margin-left: 29px;
+    height: 24px;
 }
